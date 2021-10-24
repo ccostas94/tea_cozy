@@ -1,0 +1,87 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    margin: 10px;
+    height: 50px;
+}
+
+nav {
+    margin: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-content: space-between;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+#mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url(./Images/img-mission-background.webp);
+    display: flex;
+    margin: auto;
+}
+
+#mission-statement {
+    opacity: 1;
+    width: 100%;
+    margin: auto;
+}
+
+.section-title {
+    margin: 20px;
+    background: none;
+}
+
+#tea-of-the-month-figs {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.tea-of-the-month-pic {
+    width: 300px;
+    height: 250px;
+}
+
+.tea-of-the-month-pic  img {
+    height: 200px;
+}
+
+#locations {
+    height: 500px;
+    background-image: url(./Images/img-locations-background.webp);
+}
+
+#location-container {
+    display: flex;
+    justify-content: space-around;
+    background: none;
+    opacity: 1;
+}
+
+.location {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 1;
+}
